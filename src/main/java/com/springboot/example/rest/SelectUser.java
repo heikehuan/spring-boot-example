@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/user")
-public class Hello {
+public class SelectUser {
 
     @RequestMapping(value = "select", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public Object hello() {
