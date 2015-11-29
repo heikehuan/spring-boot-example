@@ -91,6 +91,10 @@ local.properties
 # Eclipse Core
 .project
 
+# idea
+spring-boot-example.iml
+workspace.xml
+
 # External tool builders
 .externalToolBuilders/
 
