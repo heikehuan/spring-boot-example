@@ -1,7 +1,7 @@
-package com.springboot.example.front.rest;
+package com.springboot.example.controller;
 
-import com.springboot.example.front.bean.UserBean;
-import com.springboot.example.front.service.UserService;
+import com.springboot.example.bean.UserBean;
+import com.springboot.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

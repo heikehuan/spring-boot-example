@@ -1,28 +1,18 @@
-package com.springboot.example.front.model;
+package com.springboot.example.bean;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import java.util.Date;
 
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class UserBean {
     private String id;
 
-    @Column(name = "login_name")
     private String loginName;
 
     private String password;
 
-    @Column(name = "nick_name")
     private String nickName;
 
-    @Column(name = "create_date")
     private Date createDate;
 
-    @Column(name = "last_modify_date")
     private Date lastModifyDate;
 
     /**

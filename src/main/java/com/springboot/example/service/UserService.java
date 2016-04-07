@@ -1,7 +1,7 @@
-package com.springboot.example.front.service;
+package com.springboot.example.service;
 
-import com.springboot.example.front.bean.UserBean;
-import com.springboot.example.front.model.User;
+import com.springboot.example.bean.UserBean;
+import com.springboot.example.model.User;
 
 /**
  * @author <a href="mailto:huanhuan.zhan@ptthink.com">詹欢欢</a>

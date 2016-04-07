@@ -1,4 +1,4 @@
-package com.springboot.example.front.rest;
+package com.springboot.example.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

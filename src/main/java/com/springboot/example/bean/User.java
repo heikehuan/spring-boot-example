@@ -1,4 +1,4 @@
-package com.springboot.example.front.bean;
+package com.springboot.example.bean;
 
 /**
  * Created by ptmind on 2015/11/29.
